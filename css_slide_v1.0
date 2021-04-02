@@ -1,0 +1,45 @@
+/* Слайдер */
+.slick-slider{
+    
+}
+/* Строка/трек слайдера */
+.slick-track{
+    display: flex;
+}
+/* Оболочка, граница */
+.slick-list{
+
+}
+/* Конкретный слайдер, то есть МОЙ СУКА */
+.slider{
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+    padding-left: 80px;
+}
+/* Стрелки слайдера */
+.slider .slick-arrow{
+    position: absolute;
+    z-index: 5;
+    top: 35%;
+    font-size: 0;
+    width: 64px;
+    height: 64px;
+}
+/* стрелка вперёд */
+.slider .slick-arrow.slick-next{
+    right: 0;
+    background: url(../img_media/arrow-angle-pointing-to-right.svg) 0 0 / 100% no-repeat;
+   
+}
+/* стрелка назад */
+.slider .slick-arrow.slick-prev{
+    left: 0;
+    background: url(../img_media/left-arrow-angle.svg) 0 0 / 100% no-repeat;
+   
+}
+/* Точки под слайдером */
+.slick-dots{
+    display: flex;
+    
+}
